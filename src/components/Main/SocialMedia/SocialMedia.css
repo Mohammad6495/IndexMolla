@@ -1,0 +1,155 @@
+.bg-instagram {
+    background-color: #DD6D9A;
+}
+
+.bg-instagram:hover {
+    color: #DD6D9A;
+}
+
+.bg-youtube {
+    background-color: #E66262;
+}
+
+.bg-youtube:hover {
+    color: #E66262;
+}
+
+.bg-twitter {
+    background-color: #79C8ED;
+}
+
+.bg-twitter:hover {
+    color: #79C8ED;
+}
+
+.bg-facebook {
+    background-color: #8F79ED;
+}
+
+.bg-facebook:hover {
+    color: #8F79ED;
+}
+
+.bg-whatsapp {
+    background-color: #29e439;
+}
+
+.bg-whatsapp:hover {
+    color: #29e439;
+}
+
+.social-media {
+    padding: 80px 0px;
+    background-color: #FAFAFA;
+
+}
+
+@media (min-width:991px) {
+    .social-info {
+        border-left: 1px solid #E0E0E0;
+        padding: 30px 0px;
+    }
+}
+
+.media-link-item {
+    padding: 7px 15px;
+    border-radius: 50%;
+    margin: 0px 8px;
+    font-size: 20px;
+    transition: all .3s;
+}
+
+.media-link-item:hover {
+    background-color: #ffffff;
+    outline: 1px solid #e0e0e0;
+}
+
+.social-info h2 {
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+.social-info p {
+    width: 80%;
+    color: #999999;
+    margin-bottom: 30px !important;
+}
+
+.news-letter {
+    padding: 30px 0px;
+}
+
+@media (max-width:991px) {
+    .news-letter {
+        border-top: 1px solid #E0E0E0;
+        padding: 50px 0px;
+
+    }
+
+    .social-info {
+        padding: 30px 0px;
+    }
+}
+
+.news-letter h4 {
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.news-letter p {
+    color: #999999;
+}
+
+.news-letter-input {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: none;
+    border-right: 1px solid #e0e0e0;
+    padding: 8px 12px 8px 70px;
+    border-radius: 0px 25px 25px 0px;
+    outline: none;
+    transition: all .3s;
+}
+
+.news-letter-input:focus {
+    border-top: 1px solid #E66262;
+    border-bottom: 1px solid #E66262;
+    border-left: none;
+    border-right: 1px solid #E66262;
+}
+
+.news-letter-input::placeholder {
+    font-size: 14px;
+}
+
+.news-letter-btn {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-right: none;
+    border-radius: 25px 0px 0px 25px;
+    padding: 0px 30px;
+    height: 42px;
+    background-color: #ffffff;
+    font-size: 12px;
+    color: #999999;
+    transition: all .3s;
+}
+
+.news-letter-btn:hover {
+    background-color: #E66262;
+    color: #ffffff;
+}
+
+.news-letter-input:focus~.news-letter-btn {
+    border-top: 1px solid #E66262;
+    border-bottom: 1px solid #E66262;
+    border-left: 1px solid #E66262;
+    border-right: none;
+}
+.sending-message {
+    position: absolute;
+    bottom: -20px;
+}

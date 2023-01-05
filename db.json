@@ -1,0 +1,115 @@
+{
+  "pType": [
+    {
+      "id": 1,
+      "name": "لپتاپ"
+    },
+    {
+      "id": 2,
+      "name": "تجهیزات کامپیوتر"
+    },
+    {
+      "id": 3,
+      "name": "کنسول"
+    },
+    {
+      "id": 4,
+      "name": "موبایل"
+    },
+    {
+      "id": 5,
+      "name": "لوازم جانبی"
+    },
+    {
+      "id": 6,
+      "name": "لوازم صوتی"
+    }
+  ],
+  "brand": [
+    {
+      "id": 1,
+      "src": "assest/images/Brand/1.png"
+    },
+    {
+      "id": 2,
+      "src": "assest/images/Brand/2.png"
+    },
+    {
+      "id": 3,
+      "src": "assest/images/Brand/3.png"
+    },
+    {
+      "id": 4,
+      "src": "assest/images/Brand/4.png"
+    },
+    {
+      "id": 5,
+      "src": "assest/images/Brand/5.png"
+    },
+    {
+      "id": 6,
+      "src": "assest/images/Brand/6.png"
+    },
+    {
+      "id": 7,
+      "src": "assest/images/Brand/7.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "لباس جلیقه ای بلند",
+      "price": 90000,
+      "img": "assest/images/Product/product-1-2.jpg",
+      "pId": 4
+    },
+    {
+      "id": 2,
+      "name": "لباس با کمربند",
+      "price": 39000,
+      "img": "assest/images/Product/product-2-2.jpg",
+      "pId": 4
+    },
+    {
+      "id": 3,
+      "name": "صندل",
+      "price": 98000,
+      "img": "assest/images/Product/product-3-2.jpg",
+      "pId": 3
+    },
+    {
+      "id": 4,
+      "name": "کیف جدید",
+      "price": 140000,
+      "img": "assest/images/Product/product-4-2.jpg",
+      "pId": 4
+    },
+    {
+      "id": 5,
+      "name": "ژاکت پشمی",
+      "price": 280000,
+      "img": "assest/images/Product/product-3-2.jpg",
+      "pId": 2
+    },
+    {
+      "id": 6,
+      "name": "شلوار کتان",
+      "price": 240000,
+      "img": "assest/images/Product/product-4-2.jpg",
+      "pId": 2
+    },
+    {
+      "id": 7,
+      "name": "صندل با ملیله دوزی",
+      "price": 18500,
+      "img": "assest/images/Product/product-2-2.jpg",
+      "pId": 3
+    }
+  ],
+  "newsLetter": [
+    {
+      "email": "dfdfds@gmail.com",
+      "id": 1
+    }
+  ]
+}

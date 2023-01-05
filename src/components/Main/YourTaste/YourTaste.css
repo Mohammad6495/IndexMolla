@@ -1,0 +1,18 @@
+.your-taste h4 {
+    font-size: 30px !important;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.taste-text p {
+    width: 80%;
+    color: #777;
+    word-spacing: 1px;
+}
+
+.taste-product-item a:hover {
+    color: #cc6666 !important;
+}
+.line-taste {
+    border-bottom: 1px solid #e0e0e0;
+}

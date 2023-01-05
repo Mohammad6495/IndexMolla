@@ -1,0 +1,37 @@
+.intro-slider {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.intro-info-slider {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.big-title {
+  font-size: 60px;
+}
+
+.intro-text {
+  font-size: 20px;
+}
+
+.intro-btn-slider {
+  border: 1px solid #ffffff;
+  padding: 12px 60px;
+  border-radius: 25px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.intro-btn-slider:hover {
+  color: #cc6666;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .big-title {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,16 @@
+.scroll-up {
+    position: fixed;
+    left: 30px;
+    background-color: #fafafa;
+    padding: 10px 12px;
+    cursor: pointer;
+    color: #777;
+    font-size: 20px;
+    transition: all .3s;
+    z-index: 1800;
+}
+
+.scroll-up:hover {
+    background-color: #EAEAEA;
+    color: rgb(84, 82, 82);
+}

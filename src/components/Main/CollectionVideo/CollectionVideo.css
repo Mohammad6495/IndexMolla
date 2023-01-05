@@ -1,0 +1,113 @@
+.collection-video {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.collection-info {
+    padding-top: 13.5rem;
+    padding-bottom: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.collection-info h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.collection-info h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .collection-info h4 {
+        font-size: 22px;
+    }
+
+    .collection-info h1 {
+        font-size: 35px;
+    }
+}
+
+.video-play {
+    border: none;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cc6666;
+    box-shadow: 0 0 0 1rem rgb(255 255 255 / 20%);
+    transition: all .35s ease;
+    margin-top: 10px;
+}
+
+.video-play:hover {
+    background-color: #cc6666;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.7rem rgb(255 255 255 / 20%);
+}
+
+@media (max-width:768px) {
+    .collection-info {
+        padding-top: 10rem;
+        padding-bottom: 8rem;
+    }
+}
+
+.video {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+
+.content-video {
+    background-color: #000000;
+    width: 75%;
+    height: 570px;
+    z-index: 2001;
+}
+
+@media (max-width:810px) {
+    .content-video {
+        background-color: #000000;
+        width: 75%;
+        height: 320px;
+        z-index: 2001;
+    }
+}
+
+.close-video-btn {
+    color: #ffffff;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2001;
+    border: none;
+    background-color: transparent;
+    font-size: 26px;
+}
+
+.mfp-iframe {
+    width: 100%;
+    height: 100%;
+}
